@@ -1,0 +1,131 @@
+.galeria img {
+  width: 100%;
+  padding: 5px;
+  border-radius: 10px;
+}
+
+@media (min-width: 700px) {
+  .galeria {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+  }
+}
+header {
+  background-color: #537FE7;
+  padding: 5px;
+  display: block;
+  letter-spacing: 3px;
+  font-family: "Roboto", sans-serif;
+}
+
+footer {
+  background-color: #C0EEF2;
+  color: #537FE7;
+  padding: 0.5rem;
+}
+footer ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.contact {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  width: auto;
+  height: 700px;
+}
+.contact .contact_mailandcomment {
+  margin-top: 5px;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: #E9F8F9;
+}
+
+.menu ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+@media (min-width: 700px) {
+  header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-content: center;
+    padding: 5px;
+  }
+  .menu {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+  }
+  .menu ul {
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    align-items: center;
+    justify-items: center;
+    list-style-type: none;
+  }
+  .menu li {
+    margin: 5px;
+    padding-top: 5px;
+  }
+  .menu a {
+    text-decoration: none;
+  }
+  main, .aboutUs, article {
+    text-align: justify;
+    padding: 1em;
+    font-family: "Roboto", sans-serif;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    align-content: center;
+  }
+  .aboutUs img {
+    width: 300px;
+    padding: 5px;
+    border-radius: 10px;
+  }
+}
+h1 {
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+}
+
+main, .aboutUs, article {
+  background-color: black;
+  color: #E9F8F9;
+  text-align: justify;
+  padding: 1em;
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: space-around;
+}
+
+.aboutUs img {
+  width: 100%;
+  padding: 5px;
+  border-radius: 10px;
+}
+
+/*# sourceMappingURL=styles.css.map */

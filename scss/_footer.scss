@@ -1,0 +1,10 @@
+footer{
+    background-color: #C0EEF2;
+    color: #537FE7;
+    padding: 0.5rem;
+    & ul{
+        list-style-type: none;
+        display: flex;
+        justify-content: space-evenly;
+    }
+} 

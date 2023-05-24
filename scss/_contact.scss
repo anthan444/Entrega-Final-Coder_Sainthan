@@ -1,0 +1,11 @@
+.contact{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    width:auto;
+    height: 700px;
+    & .contact_mailandcomment{
+        margin-top: 5px;
+    }
+}

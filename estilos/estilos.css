@@ -1,0 +1,60 @@
+/* *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+} */
+/* a{
+    text-decoration: none;
+    color: #E9F8F9;
+} */
+/* .menu ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+}
+h1{
+
+    font-family: 'Poppins', sans-serif;
+}
+header{
+    background-color: #537FE7;
+    padding: 5px;
+    display: block;
+    letter-spacing: 3px;
+    font-family: 'Roboto', sans-serif;
+}
+ main, .aboutUs, article {
+    background-color: black;
+    color: #E9F8F9;
+    text-align: justify;
+    padding: 1em;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: space-around;
+}
+.aboutUs img, .galeria img{
+    width: 100%;
+    padding: 5px;
+    border-radius: 10px;
+} */
+/* .contact{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    width:auto;
+    height: 500px;
+} */
+/* footer{
+    background-color: #C0EEF2;
+    color: #537FE7;
+    padding: 0.5rem;
+}
+footer ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+ */
+
